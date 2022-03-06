@@ -8,12 +8,10 @@ function App() {
     <div className="App">
         <div className="gradient_bg">
       <Navbar />
-      <Header />
+     <Header />
+     
       </div>
-      <Features />
-      <Blog />
-
-      <h1>Hello World</h1>
+      
     </div>
   );
 }
