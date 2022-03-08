@@ -20,18 +20,20 @@
 }
 
 .Header-BodyContainer-Left >h1 {
+    font-family: 'Maven Pro', sans-serif;
     margin-top: auto;
     margin-bottom: 25px;
-    color: white;
+    color: black;
 }
 
 .Header-BodyContainer-Left >p {
+    font-family: 'Maven Pro', sans-serif;
     margin-bottom: 18px;
-    color: white;
+    color: black;
 }
 
 .Header-BodyContainer-Left-ButtonsContainer {
-
+    
     width: 60%;
     display: flex;
  
@@ -47,7 +49,7 @@
 
 .Header-BodyContainer-Left-ButtonsContainer >button {
     font-size: 20px;
-    font-style: normal;
+    font-family: 'Maven Pro', sans-serif;
     font-weight: 300;
     line-height: 29px;
     letter-spacing: 0em;
@@ -88,6 +90,3 @@
 
 
 
-.Header-FooterContainer {
-
-}

@@ -83,6 +83,10 @@
     margin: 1rem 0;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 @media screen and (max-width: 1050px) {

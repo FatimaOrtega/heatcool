@@ -12,7 +12,7 @@ const Header = () => (
   <div className='Header-BodyContainer'>
    <div className='Header-BodyContainer-Left'>
      <h1> 
-       ChicagoLand's Proudest Family Company
+      Chicago Land's Family Company
      </h1>
 
      <p>Provides the best experience for Heating & Cooling services. Our team is committed to give the best customer satisfaction, we guarantee to give the best service!</p>
@@ -36,9 +36,7 @@ const Header = () => (
      </div>
 
     </div>
- <div className='Header-FooterContainer'>
-
-   </div>
+ 
 
 
  </div>

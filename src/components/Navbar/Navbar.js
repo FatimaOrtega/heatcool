@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.png";
-import red from "../../assets/red.svg";
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaGooglePlusSquare } from 'react-icons/fa';
 import "./Navbar.css";
 const Menu = () => (
   <>
@@ -33,8 +34,10 @@ const Navbar = () => {
         <div className="ortega_navbar-links_container">
           <Menu />
         </div>
-    
       </div>
+      <div className="icons">
+        <button><FaFacebookSquare/></button>
+        <button><FaGooglePlusSquare/></button></div>
       <div className="ortega_navbar-menu">
         {toggleMenu ? 
           <RiCloseLine
