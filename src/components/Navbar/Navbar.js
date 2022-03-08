@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.png";
+import red from "../../assets/red.svg";
 import "./Navbar.css";
 const Menu = () => (
   <>
@@ -8,10 +9,10 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#blog">About Us</a>
+      <a href="#features">Services</a>
     </p>
     <p>
-      <a href="#features">Services</a>
+      <a href="#blog">About Us</a>
     </p>
     {/* <p><a href='#home'>Financing</a></p> */}
     <p>
@@ -32,6 +33,7 @@ const Navbar = () => {
         <div className="ortega_navbar-links_container">
           <Menu />
         </div>
+    
       </div>
       <div className="ortega_navbar-menu">
         {toggleMenu ? 

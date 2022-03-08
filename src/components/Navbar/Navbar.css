@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:wght@100&display=swap');
+
 .ortega_navbar {
    display: flex;
    justify-content: space-between;
@@ -7,6 +9,7 @@
 }
 
 .ortega_navbar-links {
+    font-family: 'Maven Pro', sans-serif;
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -79,6 +82,7 @@
 .ortega_navbar-menu_container p {
     margin: 1rem 0;
 }
+
 
 
 @media screen and (max-width: 1050px) {

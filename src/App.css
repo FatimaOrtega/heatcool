@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgb(236, 56, 56) 0%, rgb(20, 86, 230) 100%);;
+    /* background: linear-gradient(90deg, rgb(236, 56, 56) 0%, rgb(20, 86, 230) 100%);; */
 }
 
 a {
@@ -30,6 +30,7 @@ a {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 
 
  @-webkit-keyframes scale-up-center {

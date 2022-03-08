@@ -1,153 +1,93 @@
-.ortega_header {
-    display: flex;
-    flex-direction: row;
-}
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:wght@100&display=swap');
 
-.ortega_header-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-
-    margin-right: 5rem;
-}
-
-.ortega_header-content h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
-    letter-spacing: -0.04em;
-}
-
-.ortega_header-content p {
-    font-family: fantasy;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: blue;
-
-    margin-top: 1.5rem;
-}
-
-.ortega_header-content__input {
-    width: 100%;
-    margin: 2rem 0 1rem;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.ortega_header-content__input input {
-    flex: 2;
-    width: 100%;
-    min-height: 50px;
-    font-family: fantasy;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: blue;
-    border: 2px solid blue;
-    padding: 0 1rem;
-    outline: none;
-    color: #fff;
-
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-.ortega_header-content__input button {
-    flex: 0.6;
-    width: 100%;
-    min-height: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
-    padding: 0 1rem;
-    color: #fff;
-    cursor: pointer;
-    outline: none;
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.ortega_header-content__people {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-
-    margin-top: 2rem;
-}
-
-.ortega_header-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ortega_header-image img {
-    width: 100%;
-    height: 100%;
-}
-
-@media screen and (max-width: 1050px) {
-    .ortega_header {
-        flex-direction: column;
-    }
-
-    .ortega_header-content {
-        margin: 0 0 3rem;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .ortega_header-content h1 {
-        font-size: 48px;
-        line-height: 60px;
-    }
-
-    .ortega_header-content p {
-        font-size: 16px;
-        line-height: 24px;
-    }
+.Header {
+    height: 45vh;
     
-    .ortega_header-content__people {
-        flex-direction: column;
-    }
-
-    .ortega_header-content__people p {
-        margin: 0;
-    }
-
-    .ortega_header-content__input input,
-    .ortega_header-content__input button {
-        font-size: 16px;
-        line-height: 24px;
-    }
 }
 
-@media screen and (max-width: 490px) {
-    .ortega_header-content h1 {
-        font-size: 36px;
-        line-height: 48px;
-    }
+.Header-BodyContainer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
 
-    .ortega_header-content p {
-        font-size: 14px;
-        line-height: 24px;
-    }
+.Header-BodyContainer-Left { 
+    width: 800px;
+   height: 400px;
+   margin-left: auto;
+}
 
-    .ortega_header-content__input input,
-    .ortega_header-content__input button {
-        font-size: 12px;
-        line-height: 16px;
-    }
+.Header-BodyContainer-Left >h1 {
+    margin-top: auto;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.Header-BodyContainer-Left >p {
+    margin-bottom: 18px;
+    color: white;
+}
+
+.Header-BodyContainer-Left-ButtonsContainer {
+
+    width: 60%;
+    display: flex;
+ 
+}
+
+.Header-BodyContainer-Left-ButtonsContainer >button:hover {
+    color: white;
+    background-color: blue;
+    transition: all 200ms ease-in-out;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.Header-BodyContainer-Left-ButtonsContainer >button {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-style: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(235, 99, 65);
+    cursor: pointer;  
+    
+}
+
+.Header-BodyContainer-Right {
+ display: flex;
+ width: 500px;
+ height: 300px;
+}
+
+.Header-red {
+    align-content: flex-end;
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 2;
+    border: 1px;
+    
+}
+
+
+.Header-blue {
+    position: relative;
+    z-index: 1;
+}
+
+.App-bluePlacement {
+    align-content: flex-end;
+    position: absolute;
+}
+
+
+
+.Header-FooterContainer {
+
 }
