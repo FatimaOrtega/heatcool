@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.png";
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaGooglePlusSquare } from 'react-icons/fa';
-
 import "./Navbar.css";
+
 const Menu = () => (
   <>
    
@@ -14,7 +13,7 @@ const Menu = () => (
     </p>
     
     <p>
-      <a href='/feature'>Financing</a>
+      <a href='/feature'>Services</a>
       </p>
      
   

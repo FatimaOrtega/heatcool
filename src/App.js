@@ -1,6 +1,6 @@
 import React from "react";
-import { Footer, Blog, Header, Features } from "./containers";
-import { Article, Navbar } from "./components";
+import { Header} from "./containers";
+import { Navbar } from "./components";
 import blue from "./assets/blue.svg";
 import "./App.css";
 
@@ -10,7 +10,6 @@ function App() {
         <div className="gradient_bg">
       <Navbar />
       <Header />
-      
       </div>
       
     </div>
