@@ -1,0 +1,30 @@
+.contact {
+    height: 80vh;
+    background: linear-gradient(90deg, rgb(236, 56, 56) 0%, rgb(20, 86, 230) 100%);
+
+
+
+}
+
+.contact-container {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.contact-title {
+    margin-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: floralwhite;
+}
+
+

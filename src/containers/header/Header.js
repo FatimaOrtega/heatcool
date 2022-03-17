@@ -18,7 +18,7 @@ const Header = () => (
      <p>Provides the best experience for Heating & Cooling services. Our team is committed to give the best customer satisfaction, we guarantee to give the best service!</p>
      
      <div className='Header-BodyContainer-Left-ButtonsContainer'>
-       <button>Schedule Now</button>
+       {/* <button>Schedule Now</button> */}
        </div>
        <div className="Header-van">
          <img src={van}/>

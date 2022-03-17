@@ -23,7 +23,7 @@ const Menu = () => (
     </p>
     {/* <p><a href='#home'>Financing</a></p> */}
     <p>
-      <a to="/">Contact Information</a>
+      <a href="/Contact">Contact Information</a>
     </p>
     
    

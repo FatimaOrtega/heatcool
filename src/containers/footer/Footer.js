@@ -4,7 +4,13 @@ import './footer.css';
 const Footer = () => {
 return (
 
-	<h1>Hello</h1>
+	<div className='footer_background'>
+
+	<ul>
+		<li>Headquarters</li>
+		<li>Contact</li>
+	</ul>
+	</div>
 )
 };
 
