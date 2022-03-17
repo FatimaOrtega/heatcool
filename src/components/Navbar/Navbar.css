@@ -83,9 +83,15 @@
     margin: 1rem 0;
 }
 
-.icons {
-    display: flex;
+.icons >button{
+    border-style: none; 
     justify-content: space-evenly;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icons {
+    align-items: center;
 }
 
 

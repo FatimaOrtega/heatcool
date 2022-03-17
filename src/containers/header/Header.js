@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import papa from "../../assets/papa.jpeg";
+import van from "../../assets/van.svg";
 import blue from "../../assets/blue.svg";
 import red from "../../assets/red.svg";
 import './header.css';
@@ -19,9 +19,10 @@ const Header = () => (
      
      <div className='Header-BodyContainer-Left-ButtonsContainer'>
        <button>Schedule Now</button>
-
-       
        </div>
+       <div className="Header-van">
+         <img src={van}/>
+         </div>
      </div>
 
      <div className='Header-BodyContainer-Right'>  

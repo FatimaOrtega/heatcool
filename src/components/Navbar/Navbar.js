@@ -1,25 +1,35 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.png";
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaGooglePlusSquare } from 'react-icons/fa';
+
 import "./Navbar.css";
 const Menu = () => (
   <>
+   
     <p>
-      <a href="#home">Home</a>
+    <a href='/'>Home</a>
     </p>
+    
     <p>
-      <a href="#features">Services</a>
-    </p>
+      <a href='/feature'>Financing</a>
+      </p>
+     
+  
     <p>
-      <a href="#blog">About Us</a>
+
+    <a to='/'>About Us</a>
     </p>
     {/* <p><a href='#home'>Financing</a></p> */}
     <p>
-      <a href="#possiblity">Contact Information</a>
+      <a to="/">Contact Information</a>
     </p>
+    
+   
   </>
+
 );
 
 const Navbar = () => {
@@ -36,8 +46,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="icons">
-        <button><FaFacebookSquare/></button>
-        <button><FaGooglePlusSquare/></button></div>
+        <button><FaFacebookSquare color="blue" size={40}/></button>
+        <button><FaGooglePlusSquare color="#299A47" size={40}/></button></div>
       <div className="ortega_navbar-menu">
         {toggleMenu ? 
           <RiCloseLine
