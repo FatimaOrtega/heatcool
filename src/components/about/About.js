@@ -1,13 +1,14 @@
 import React from 'react';
 import Navbar from './../Navbar/Navbar';
 
-const features = () => {
+
+const About = () => {
 return (
 	<>
 <Navbar/>
-	<h1>Services</h1>
+	<h1>About Us</h1>
 	</>
 )
 };
 
-export default features;
+export default About;

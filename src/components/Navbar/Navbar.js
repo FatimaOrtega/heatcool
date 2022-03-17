@@ -19,7 +19,7 @@ const Menu = () => (
   
     <p>
 
-    <a to='/'>About Us</a>
+    <a href='/about'>About Us</a>
     </p>
     {/* <p><a href='#home'>Financing</a></p> */}
     <p>
@@ -45,8 +45,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="icons">
-        <button><FaFacebookSquare color="blue" size={40}/></button>
-        <button><FaGooglePlusSquare color="#299A47" size={40}/></button></div>
+        <a href='https://www.facebook.com/profile.php?id=100072357945926'><FaFacebookSquare color="blue" size={40}/></a>
+        <a href='https://www.google.com/search?q=a-ortega+heating+and+cooling&rlz=1C5CHFA_enUS963US967&oq=a-o&aqs=chrome.2.69i57j46i512j69i59j0i512l3j46i175i199i512l3.1716j0j15&sourceid=chrome&ie=UTF-8'><FaGooglePlusSquare color="#299A47" size={40}/></a></div>
       <div className="ortega_navbar-menu">
         {toggleMenu ? 
           <RiCloseLine

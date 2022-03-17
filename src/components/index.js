@@ -1,2 +1,2 @@
-export { default as Article } from './article/Article';
+export { default as Article } from './about/About';
 export { default as Navbar } from './Navbar/Navbar';
