@@ -1,0 +1,41 @@
+.about {
+    height: 85vh;
+    background: #9BCCE8;
+
+
+
+}
+
+.about-container {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.about-container >img {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 350px;
+    width: 450px;
+}
+
+.about-title {
+    margin-top: 20px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+
+}
+
+
