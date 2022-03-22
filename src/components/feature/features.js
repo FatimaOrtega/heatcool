@@ -25,7 +25,7 @@ return (
 </li>
 		<li>Cleaning:
 			<h2>
-			<ul>Dryer</ul>np
+			<ul>Dryer</ul>
 			<ul>Duct</ul>
 			<ul>Unit Maintenance</ul>
 			</h2>
