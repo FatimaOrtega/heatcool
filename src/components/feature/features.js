@@ -20,6 +20,8 @@ return (
 	 <div className= 'feature-column'>
 	 <div className= 'service-left-side'>
 		 <ul>Installation:</ul>
+		 </div>
+		 </div>
 		 <div className= 'rectangle'>
 		 Air conditioning
 		 </div>
@@ -51,9 +53,9 @@ return (
 		 
 		 
 	 </div>
-	 </div>
 	 
-	 </div>
+	 
+	 
 	 
 		 </div>
   
