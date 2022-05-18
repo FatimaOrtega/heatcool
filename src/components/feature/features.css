@@ -1,24 +1,29 @@
-.service {
+.services {
     height: 85vh;
-    background: #FC232F;
-}
-
-.service-container {
-    
-    display: flex;
-    flex-direction: column;
     text-align: center;
+   
 }
 
-.service-title {
-    margin-top: 20px;
+.service-title { 
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.service-container { 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
 
 .service-left-side {
+  margin-right: auto;
+  margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 20px;
 }
 
 .service-right-side {
@@ -27,3 +32,16 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.feature-column {
+    display: flex;
+    flex-direction: column;
+}
+.rectangle {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100px;
+    height: 45px;
+    z-index: 1;
+    background: #F1694B;
+  }

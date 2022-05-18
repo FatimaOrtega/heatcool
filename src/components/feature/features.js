@@ -1,45 +1,79 @@
 import React from 'react';
 import Navbar from './../Navbar/Navbar';
-import "./features.css";
+import blue from "../../assets/blue.svg";
+import red from "../../assets/red.svg";
+import '../../containers/header/header.css';
+import './features.css';
 
 const features = () => {
 return (
 	<>
 <Navbar/>
-<div className='service'>
-	<div className='service-container'>
-	<div className='service-title'>
-	<h1>Services</h1>
-	</div>
-	<ul>
-	<h3>
-		<div className='service-left-side'>
-		<li>Installation:
-			<h2>
-	<ul>Furnace</ul>
-	<ul>Air Conditioner</ul>
-	<ul>Water Heating</ul>
-	<ul>Ducts</ul>
-	<ul>Thermostat</ul>
-	</h2>
-</li>
-		<li>Cleaning:
-			<h2>
-			<ul>Dryer</ul>
-			<ul>Duct</ul>
-			<ul>Unit Maintenance</ul>
-			</h2>
-		</li>
 
-		<li>Humidifier</li>
+
+<div className='services'>
+  <div className='service-container'>
+	  <div className= 'service-title'>
+  <h1> 
+      Services
+     </h1>
+	 <div className= 'feature-column'>
+	 <div className= 'service-left-side'>
+		 <ul>Installation:</ul>
+		 <div className= 'rectangle'>
+		 Air conditioning
+		 </div>
+		 <div className= 'rectangle'>
+		 Furnace
+		 </div>
+		 <div className= 'rectangle'>
+		 Water Heating
+		 </div>
+		 <div className= 'rectangle'>
+		 Duct
+		 </div>
+
 		
+		 <div className= 'service-right-side'>
+		 <ul>Maintenance:</ul>
+		 <div className= 'rectangle'>
+		 Air conditioning
+		 </div>
+		 <div className= 'rectangle'>
+		 Furnace
+		 </div>
+		 <div className= 'rectangle'>
+		 Water Heating
+		 </div>
+		 <div className= 'rectangle'>
+		 Duct
+		 </div>
+		 
+		 
+	 </div>
+	 </div>
+	 
+	 </div>
+	 
+		 </div>
+  
 
+     <div className='Header-BodyContainer-Right'>  
+      <div className='Header-red'>
+     <img src={red}/>
+     </div>
+     <div className='App-bluePlacement '>
+     <div className='Header-blue'>
+<img src={blue}/>
 </div>
-</h3>
+</div>
+     </div>
 
-</ul>
-	</div>
-	</div>
+    </div>
+ 
+
+
+ </div>
 	</>
 )
 };

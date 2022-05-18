@@ -11,9 +11,9 @@ import Contact from './components/Contact/Contact';
 ReactDOM.render(
 <Router>
     <Routes>
-<Route path='/' element={<App />} />
-<Route path='/feature' element={<Feature />} />
-<Route path='/about' element={<About />} />
-<Route path='/Contact' element={<Contact />} />
-</Routes>
+    <Route path='/' element={<App />} />
+    <Route path='/feature' element={<Feature />} />
+    <Route path='/about' element={<About />} />
+    <Route path='/Contact' element={<Contact />} />
+    </Routes>
 </Router>, document.getElementById("root"));
