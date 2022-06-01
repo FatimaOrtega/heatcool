@@ -19,11 +19,11 @@
 
 
 .service-left-side {
-  margin-right: auto;
+
   margin-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+   
 }
 
 .service-right-side {
@@ -37,12 +37,5 @@
 .feature-column {
     display: flex;
     flex-direction: column;
+   
 }
-.rectangle {
-    display: inline-block;
-    margin-top: 20px;
-    width: 90px;
-    height: 45px;
-    z-index: 1;
-    background: #F1694B;
-  }

@@ -22,20 +22,20 @@ return (
 		 <ul>Installation:</ul>
 		 </div>
 		 </div>
-		 <div className= 'rectangle'>
+		 <div>
 		 Air conditioning
 		 </div>
-		 <div className= 'rectangle'>
+		 <div>
 		 Furnace
 		 </div>
-		 <div className= 'rectangle'>
+		 <div>
 		 Water Heating
 		 </div>
-		 <div className= 'rectangle'>
+		 <div>
 		 Duct
 		 </div>
 
-		
+		 <div className= 'feature-column'>
 		 <div className= 'service-right-side'>
 		 <ul>Maintenance:</ul>
 		 <div className= 'rectangle'>
@@ -50,7 +50,7 @@ return (
 		 <div className= 'rectangle'>
 		 Duct
 		 </div>
-		 
+		 </div>
 		 
 	 </div>
 	 
