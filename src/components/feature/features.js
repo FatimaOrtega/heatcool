@@ -38,16 +38,16 @@ return (
 		 <div className= 'feature-column'>
 		 <div className= 'service-right-side'>
 		 <ul>Maintenance:</ul>
-		 <div className= 'rectangle'>
+		 <div>
 		 Air conditioning
 		 </div>
-		 <div className= 'rectangle'>
+		 <div>
 		 Furnace
 		 </div>
-		 <div className= 'rectangle'>
+		 <div>
 		 Water Heating
 		 </div>
-		 <div className= 'rectangle'>
+		 <div>
 		 Duct
 		 </div>
 		 </div>

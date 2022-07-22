@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/logo.png";
-import { FaFacebookSquare } from "react-icons/fa";
+import logo from "../../assets/A-Ortega.svg";
+import fb from "../../assets/fb.svg";
 
-import facebook from "../../assets/facebook.png";
 import google from "../../assets/Google.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
@@ -52,7 +51,7 @@ const Navbar = () => {
       <div className="icons">
       <div className="ortega_navbar-links_facebook">
       <a href="https://www.facebook.com/profile.php?id=100072357945926">
-        <img src={facebook} alt="google"/>
+        <img src={fb} alt="google"/>
         </a>
         </div>
 
