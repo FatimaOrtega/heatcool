@@ -12,6 +12,7 @@ const Header = () => (
   <div className='Header-BodyContainer'>
    <div className='Header-BodyContainer-Left'>
      <h1> 
+      (Still in building progress)
       Chicago Land's Family Company
      </h1>
 

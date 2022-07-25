@@ -16,12 +16,12 @@ return (
    <div className='Header-BodyContainer-Left'>
   <h1>About Us</h1> 
 
-     <h2>A-Ortega Heating & Cooling Inc. once the founder of the company was tired of working the same life as a chef. Ortega felt like he had a passion for something else but yet was not aware of what it was yet. It was until he began to help others with installation, he understood his passion of wanting to become an entrepreneur. The company continues to grow and continue giving the best customer service!</h2>
+     <p>A-Ortega Heating & Cooling Inc. once the founder of the company was tired of working the same life as a chef. Ortega felt like he had a passion for something else but yet was not aware of what it was yet. It was until he began to help others with installation, he understood his passion of wanting to become an entrepreneur. The company continues to grow and continue giving the best customer service!</p>
 
      <div className='Header-BodyContainer-Left-ButtonsContainer'>
        
        </div>
-       <div className="Header-van">
+       <div className="about-container">
        <img src={papa} />
          </div>
      </div>

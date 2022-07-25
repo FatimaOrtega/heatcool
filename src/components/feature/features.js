@@ -19,7 +19,10 @@ return (
      </h1>
 	 <div className= 'feature-column'>
 	 <div className= 'service-left-side'>
-		 <ul>Installation:</ul>
+		 <ul><h3>Installation:</h3></ul>
+
+		 
+
 		 </div>
 		 </div>
 		 <div>
@@ -36,8 +39,10 @@ return (
 		 </div>
 
 		 <div className= 'feature-column'>
-		 <div className= 'service-right-side'>
-		 <ul>Maintenance:</ul>
+	 <div className= 'service-left-side'>
+	 <ul><h3>Maintenance:</h3></ul>
+		 </div>
+		 </div>
 		 <div>
 		 Air conditioning
 		 </div>
@@ -49,12 +54,7 @@ return (
 		 </div>
 		 <div>
 		 Duct
-		 </div>
-		 </div>
-		 
-	 </div>
-	 
-	 
+		 </div> 
 	 
 	 
 		 </div>
