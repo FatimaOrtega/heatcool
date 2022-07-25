@@ -14,14 +14,12 @@ return (
 <div className='Header'>
   <div className='Header-BodyContainer'>
    <div className='Header-BodyContainer-Left'>
-     <h1> 
-      Chicago Land's Family Company
-     </h1>
+  <h1>About Us</h1> 
 
-     <p>Provides the best experience for Heating & Cooling services. Our team is committed to give the best customer satisfaction, we guarantee to give the best service!</p>
-     
+     <h2>A-Ortega Heating & Cooling Inc. once the founder of the company was tired of working the same life as a chef. Ortega felt like he had a passion for something else but yet was not aware of what it was yet. It was until he began to help others with installation, he understood his passion of wanting to become an entrepreneur. The company continues to grow and continue giving the best customer service!</h2>
+
      <div className='Header-BodyContainer-Left-ButtonsContainer'>
-      
+       
        </div>
        <div className="Header-van">
        <img src={papa} />
@@ -51,3 +49,6 @@ return (
 };
 
 export default About;
+
+
+// <img src={papa} />
