@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
 import App from './App';
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Feature from './components/feature/features';
 import About from './components/about/About';
 import Contact from './components/Contact/Contact';
